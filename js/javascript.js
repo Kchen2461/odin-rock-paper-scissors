@@ -1,3 +1,6 @@
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice() {
     let randomNum = Math.floor(Math.random() * 100) + 1;
 
@@ -10,3 +13,6 @@ function getComputerChoice() {
     }
 }
 
+function getHumanChoice() {
+    let choice = parseInt(prompt("Enter 1 for Rock, 2 for scissors, or 3 for paper"));
+}
